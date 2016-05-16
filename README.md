@@ -8,10 +8,10 @@ Now, I have a solution to solve this problem. To overcome this problem need to f
 
 1. Close The CoIDE. Note: If you still open the CoIDE, However you change the linker-script that is always set by defualt.
 
-2. Open blink.coproj file,
+2. Open .coproj file,
    1. The "UseMemoryLayout" value must be set to 0.
    2. The "nostartfiles" value must be set to 0.
    3. The "LocateLinkFile path" msut be set to the path to the linker-script you want.
 
 The image was shown in below.
-![Alt text](https://github.com/Twinkle0613/BlinkLED_CoIDE/blob/master/Image/coproj.png)
+![Alt text](https://github.com/Twinkle0613/BlinkLED_CoIDE/blob/master/Image/coproj.png "blink.coproj")
