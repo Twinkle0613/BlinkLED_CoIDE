@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F103C8T6 -DSTM32F103xB -DUSE_STDPERIPH_DRIVER -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers -I..\..\..\..\..\..\..\CoIDE\workspace\blink\Conf -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\blink -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace\blink\Hardware -I..\..\..\..\..\..\..\CoIDE\workspace\blink\startup -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include">
+      <target file="stm32f10x_rcc.o" lastModified="154b7e1d244">
+         <source file="..\..\..\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1"/>
+      </target>
+      <target file="startup_stm32f103xb.o" lastModified="154b7e1d084">
+         <source file="..\..\..\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0"/>
+      </target>
+      <target file="main.o" lastModified="154b7e2e6af">
+         <source file="..\..\..\app\main.c" lastModified="154b7e2c940"/>
+      </target>
+      <target file="system_stm32f1xx.o" lastModified="154b7e1cd49">
+         <source file="..\..\..\startup\system_stm32f1xx.c" lastModified="1518acc3ee0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="154b7e1ceff">
+         <source file="..\..\..\Hardware\stm32f10x_gpio.c" lastModified="1548643542c"/>
+      </target>
+   </processor>
+</history>

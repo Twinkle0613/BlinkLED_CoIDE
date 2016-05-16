@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers /I..\..\..\..\..\..\..\CoIDE\workspace\blink\Conf /I..\..\..\..\..\..\..\CoIDE\workspace /I..\..\..\..\..\..\..\CoIDE\workspace\blink /I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS /I..\..\..\..\..\..\..\CoIDE\workspace\blink\Hardware /I..\..\..\..\..\..\..\CoIDE\workspace\blink\startup /I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include">
+      <source file="..\..\..\Conf\stm32f10x.h" lastModified="154b0613ad4">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cm3.h"/>
+         <include file="..\..\..\Conf\system_stm32f10x.h"/>
+         <include file="..\..\..\Hardware\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc_V6.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\startup\stm32f1xx.h" lastModified="1518acc7590">
+         <include file="..\..\..\startup\stm32f103xb.h"/>
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x_conf.h" lastModified="154b492506c">
+         <include file="..\..\..\Hardware\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cmFunc.h" lastModified="150b68d7ba8">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc.h"/>
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc_V6.h"/>
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\startup\stm32f103xb.h" lastModified="1518acc42c8">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cm3.h"/>
+         <include file="..\..\..\startup\system_stm32f1xx.h"/>
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cm3.h" lastModified="150b68d73d8">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cmInstr.h"/>
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x_rcc.h" lastModified="154b4947849">
+         <include file="..\..\..\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x.h" lastModified="1548a388a46">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cm3.h"/>
+         <include file="..\..\..\Conf\system_stm32f10x.h"/>
+         <include file="..\..\..\Hardware\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x_gpio.h" lastModified="1548643532c">
+         <include file="..\..\..\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1">
+         <include file="..\..\..\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\startup\system_stm32f1xx.h" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Hardware\stm32f10x_gpio.c" lastModified="1548643542c">
+         <include file="..\..\..\Hardware\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_gcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\startup\system_stm32f1xx.c" lastModified="1518acc3ee0">
+         <include file="..\..\..\startup\stm32f1xx.h"/>
+      </source>
+      <source file="..\..\..\app\main.c" lastModified="154b7e2c940">
+         <include file="..\..\..\Hardware\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Conf\stm32f10x.h"/>
+         <include file="..\..\..\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\core_cmInstr.h" lastModified="150b68d7ba8">
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc.h"/>
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc_V6.h"/>
+         <include file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\system_stm32f10x.h" lastModified="1548a5329a5">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers /I..\..\..\..\..\..\..\CoIDE\workspace /I..\..\..\..\..\..\..\CoIDE\workspace\blink /I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS /I..\..\..\..\..\..\..\CoIDE\workspace\blink\startup /I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include">
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc_V6.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_armcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\startup\system_stm32f1xx.h" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\..\STM32Cube_FW_F1_V1.3.0\Drivers\CMSIS\Include\cmsis_gcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\startup\system_stm32f1xx.c" lastModified="1518acc3ee0">
+         <include file="..\..\..\startup\stm32f1xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

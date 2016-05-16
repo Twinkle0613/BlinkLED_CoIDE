@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g2 -Map=blink.map -O0 --gc-sections -LC:/Users/Hwa-Neng/CoIDE/workspace/blink -TC:\Users\Hwa-Neng\CoIDE\workspace\blink\STM32F103C8_FLASH.ld -g">
+      <target file="blink.elf" lastModified="154b7e2e9cf">
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="154b7e1d244"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="154b7e1ceff"/>
+         <source file="..\obj\startup_stm32f103xb.o" lastModified="154b7e1d084"/>
+         <source file="..\obj\system_stm32f1xx.o" lastModified="154b7e1cd49"/>
+         <source file="..\obj\main.o" lastModified="154b7e2e6af"/>
+      </target>
+   </processor>
+</history>
