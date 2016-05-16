@@ -16,7 +16,7 @@ The image was shown in below.
 
 ##STM32F10x standard peripheral library
 
-***stm32f10x_stdperiph_lib** has to provide the all of the periheral driver for **STM32F10X** to make users to easily configure the periheral. I will show the way to configure the periheral by using **standard peripheral library**.
+**stm32f10x_stdperiph_lib** has to provide the all of the periheral driver for **STM32F10X** to make users to easily configure the periherals. I will show the way to configure the periheral by using **stm32f10x_stdperiph_lib**.
      
  Step 1 :
       Download the **stm32f10x_stdperiph_lib**.
