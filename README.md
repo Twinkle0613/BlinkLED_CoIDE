@@ -1,7 +1,7 @@
 Developed STM32F103C8T6 By using CoIDE
 ======================================
 
-##Problem 1
+##Problem 
 >In the CoIDE V1.7.8 version, I have faced the problem which is the default linker-script can't be changed. It is due to some bug in CoIDE that doesn't update properly the changes that was made to the selection of linker-script. Now, I have a solution to solve this problem. To overcome this problem need to follow 2 step:
 
 1. Close The CoIDE. Note: If you still open the CoIDE, However you change the linker-script that is always set by defualt.
@@ -13,3 +13,18 @@ Developed STM32F103C8T6 By using CoIDE
 
 The image was shown in below.
 ![Alt text](https://github.com/Twinkle0613/BlinkLED_CoIDE/blob/master/Image/coproj.png "blink.coproj")
+
+##STM32F10x standard peripheral library
+
+**StdPeriph_Driver** has to provide the all of the periheral driver to make users easily to configure the periheral. I will show the way to configure the periheral by using **standard peripheral library**.
+     
+      Step 1 :
+      Download the **stm32f10x_stdperiph_lib**.
+      
+      Step 2 :
+      Included the driver ( .h file) you want into the **Project** bar of CoIDE.
+      
+      Step 3 :
+      View->Configuration->Compile
+      Add the **USE_STDPERIPH_DRIVER** into 'Defined Symbols'
+      
