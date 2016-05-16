@@ -1,6 +1,3 @@
+Developed STM32F103C8T6 By using CoIde
+======================================
 
-Project {#index}
-===================
-
-
-This is an example project.
