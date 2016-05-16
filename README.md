@@ -17,13 +17,14 @@ The image was shown in below.
 ##STM32F10x standard peripheral library
 
 ***stm32f10x_stdperiph_lib** has to provide the all of the periheral driver for **STM32F10X** to make users to easily configure the periheral. I will show the way to configure the periheral by using **standard peripheral library**.
-      Step 1 :
+     
+ Step 1 :
       Download the **stm32f10x_stdperiph_lib**.
       
-      Step 2 :
+ Step 2 :
       Included the driver ( .h file) you want into the **Project** bar of CoIDE.
       
-      Step 3 :
+ Step 3 :
       View->Configuration->Compile
       Add the **USE_STDPERIPH_DRIVER** into 'Defined Symbols'
       
