@@ -28,3 +28,16 @@ The image was shown in below.
       View->Configuration->Compile
       Add the **USE_STDPERIPH_DRIVER** into 'Defined Symbols'
       
+
+##Auto Compile Before Download and Debugging 
+
+>By default, the CoIDE debugger will force download or debugging no matter there is any change or not. This can slow down the debugging process when the program is big. Also it can decrease the lifetime of the Flash Momory. All these are not desirable.
+
+To disable auto download:
+   view->configuration->download: disable 'auto download before download'
+   
+To disable auto debugging:
+   view->configuration->user: disable 'auto download before debugging'
+
+
+
